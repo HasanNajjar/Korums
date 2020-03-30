@@ -19,7 +19,56 @@ const AnnouncmentsData = [
         Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
         Comments: 4,
         DateTime: "2020-03-24T19:48:00.000Z"
-    }
+    },
+    {
+        id: 4,
+        Title: "Does anyone think that maelstrom should be nerfed?",
+        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+        Comments: 30,
+        DateTime: "2020-03-24T08:48:00.000Z"
+    },
+    {
+        id:5,
+        Title: "Does anyone think that blink dagger should be nerfed?",
+        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+        Comments: 13,
+        DateTime: "2020-03-24T18:48:00.000Z"
+    },
+    {
+        id: 6,
+        Title: "Does anyone think that bracer should be buffed?",
+        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+        Comments: 1,
+        DateTime: "2020-02-11T17:48:00.000Z"
+    },
+    {
+        id: 7,
+        Title: "Checkout my art",
+        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+        Comments: 3,
+        DateTime: "2020-03-23T17:48:00.000Z"
+    },
+    {
+        id: 8,
+        Title: "When will the update be released?",
+        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+        Comments: 24,
+        DateTime: "2020-03-1T17:48:00.000Z"
+    },
+    {
+        id: 9,
+        Title: "Follow me on twitter at @",
+        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+        Comments: 75,
+        DateTime: "2019-03-24T17:48:00.000Z"
+    },
+    {
+        id: 10,
+        Title: "Does anyone think that bracer should be buffed?",
+        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
+        Comments: 33,
+        DateTime: "2020-01-24T17:48:00.000Z"
+    },
 
 ]
 

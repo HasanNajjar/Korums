@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-horizontal-scrolling-menu": "^0.7.7",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "rest-hooks": "^4.5.9",
@@ -17,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "purgecss --css build/static/css/*.css --content build/static/index.html build/static/js/*.js --output build/static/css"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "glob-all": "^3.2.1",
+    "purgecss-webpack-plugin": "^2.1.0"
   }
 }
