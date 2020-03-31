@@ -73,28 +73,3 @@ const AnnouncmentsData = [
 ]
 
 export default AnnouncmentsData
-
-//TODO: ADD THIS DATA LATER WHEN IMPLENETING STATE TO THE ANNOUNCMENTS
-
-/* ,
-    {
-        id: 4,
-        Title: "Does anyone think that maelstrom should be nerfed?",
-        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
-        Comments: 30,
-        DateTime: "2020-03-24T08:48:00.000Z"
-    },
-    {
-        id:5,
-        Title: "Does anyone think that blink dagger should be nerfed?",
-        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
-        Comments: 13,
-        DateTime: "2020-03-24T18:48:00.000Z"
-    },
-    {
-        id: 6,
-        Title: "Does anyone think that bracer should be buffed?",
-        Body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!",
-        Comments: 103,
-        DateTime: "2020-03-24T17:48:00.000Z"
-    }, */

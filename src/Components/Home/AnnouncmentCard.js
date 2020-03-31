@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 
-import AnnouncmentsData from '../Data/AnnouncmentsData'
+import AnnouncmentsData from '../../Data/AnnouncmentsData'
 import './AnnouncmentCard.css';
 
 const list = AnnouncmentsData

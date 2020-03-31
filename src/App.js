@@ -1,16 +1,45 @@
-import React from 'react'
-import Navbar from './assets/Navbar'
-import AnnouncmentTitle from './assets/AnnouncmentTitle'
-import AnnouncmentCard from './Components/AnnouncmentCard'
+import React, {useState} from 'react'
+import Home from './Components/Home/Home'
+import Announcments from './Components/Announcments/Announcments'
+import Discussions from './Components/Discussions/Discussions'
+import Register from './Components/Register/Register'
+import Login from './Components/Login/Login'
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    useRouteMatch,
+  } from "react-router-dom"
 
 function App() {
+
+       
     return (
-        <div>
-    <Navbar />
-    <AnnouncmentTitle />
-    <AnnouncmentCard />
-    </div> 
-    )
+        <Router>
+        <Switch>
+             <Route path="/" exact>
+             <Home />   </Route>
+        </Switch>
+        <Switch>
+             <Route path="/announcments" exact>
+             <Announcments />   </Route>
+        </Switch>
+        <Switch>
+              <Route path="/discussions" exact> 
+              <Discussions />  </Route>
+        </Switch>
+        <Switch>
+              <Route path="/login" exact> 
+              <Login />  </Route>
+        </Switch>  
+        <Switch>
+              <Route path="/register" exact> 
+              <Register />  </Route>
+        </Switch>
+        </Router>
+        )
 }
 
 export default App
