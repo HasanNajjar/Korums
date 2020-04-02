@@ -1,1 +1,1 @@
-Forum platform made using ReactJS
+Forum platform built with ReactJS 
