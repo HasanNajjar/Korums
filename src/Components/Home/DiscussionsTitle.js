@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function AnnouncmentTitle() {
+export default function DiscussionsTitle() {
     return(
         <div>
-    <nav class="flex items-center justify-between flex-wrap bg-gray-300 p-1">
+    <nav class="flex items-center justify-between flex-wrap bg-gray-400 p-1 shadow-xl">
     <div class="flex items-center flex-shrink-0 text-black mr-6">
-      <span class="font-bold text-xl tracking-wider mx-2">Announcments</span>
+      <span class="font-bold text-xl tracking-wider mx-2">Trending Discussions</span>
     </div>
     <div class="block lg:hidden">
     </div>

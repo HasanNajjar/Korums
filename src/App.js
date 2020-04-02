@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Home from './Components/Home/Home'
 import Announcments from './Components/Announcments/Announcments'
 import Discussions from './Components/Discussions/Discussions'
@@ -9,8 +9,6 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link,
-    useRouteMatch,
   } from "react-router-dom"
 
 function App() {

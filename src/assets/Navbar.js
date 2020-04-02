@@ -1,11 +1,5 @@
-import React, { useState } from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch
-} from "react-router-dom"
+import React from 'react'
+import { Link } from "react-router-dom"
 
 
 export default function Navbar() {
