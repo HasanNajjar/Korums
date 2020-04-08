@@ -2,24 +2,8 @@ import React from 'react'
 
 export default function DiscussionsContent() {
     return(
-        <div class="container">
-        <div class=" w-1/5 bg-gray-400 shadow-2xl h-screen ">
-        <div class="text-center p-3 text-xl font-semibold h-max text-black shadow-xl">
-        <ul class="overflow-hidden ">
-        <hr />
-        <li class="p-5"><a href="#" class="hover:text-white">Dota2</a></li> <hr />
-        <li class="p-5"><a href="#" class="hover:text-white">Web Development</a> </li><hr />
-        <li class="p-5"><a href="#" class="hover:text-white">Artifact</a></li><hr />
-        <li class="p-5"><a href="#" class="hover:text-white">Football</a></li><hr />
-        <li class="p-5"><a href="#" class="hover:text-white">Movies</a></li><hr />
-        <li class="p-5"><a href="#" class="hover:text-white">Televsion</a></li><hr />
-        <li class="p-5"><a href="#" class="hover:text-white">Basketball</a></li><hr />
-
-
-        </ul>
-        </div>
-        </div>
-        </div>
+        <h1>
+        </h1>
     )
 }
 

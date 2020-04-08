@@ -127,7 +127,8 @@ export default class AnnouncmentCards extends PureComponent {
   buildControls() {
     const { canScrollLeft, canScrollRight } = this.state
     return (
-      <div  class="text-center">
+      <div>
+      <div  class="bg-gray-400 text-center">
         <button class="bg-green-400  hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full"
           type="button"
           disabled={!canScrollLeft} 
@@ -154,11 +155,12 @@ export default class AnnouncmentCards extends PureComponent {
           }}   >     > {/* next button */}
         </button>
       </div>
+      </div>
     )
   }
 
   render() {
-    const { selected, wheel } = this.state;
+    const { selected } = this.state;
 
     return (
       <div>

@@ -1,7 +1,7 @@
 const DiscussionsData = [
     {
     id: 1,
-    Title: "Post 1",
+    Title: "Hello how are you all doing my name is Hasan please follow me on my twitter and instagram @qweqeqw",
     Body: "Aenean consectetur justo elementum, placerat lacus et, pulvinar velit.",
     Webdev: "",
     Comments: 22,
@@ -65,3 +65,5 @@ const DiscussionsData = [
 
 
 ]
+
+export default DiscussionsData
