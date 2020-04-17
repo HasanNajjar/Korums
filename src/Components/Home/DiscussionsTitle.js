@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function DiscussionsTitle() {
     return(
-        <div>
-    <nav class="flex items-center justify-between flex-wrap bg-gray-400 p-1 shadow-xl">
+         <div>
+ {/*   <nav class="flex items-center justify-between flex-wrap bg-gray-400 p-1 shadow-xl">
     <div class="flex items-center flex-shrink-0 text-black mr-6">
       <span class="font-bold text-xl tracking-wider mx-2">Trending Discussions</span>
     </div>
@@ -13,7 +13,7 @@ export default function DiscussionsTitle() {
       <div class="text-sm lg:flex-grow">
       </div>
       </div>
-  </nav>
+  </nav> */}
   </div>
   )
 }

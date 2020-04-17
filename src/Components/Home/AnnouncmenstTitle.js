@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function AnnouncmentTitle() {
     return(
-        <div>
-    <nav class="flex items-center justify-between flex-wrap bg-gray-400 p-1 ">
+        <div class="container mx-auto">
+    <nav class="flex items-center justify-between flex-wrap bg-gray-200 p-1 ">
     <div class="flex items-center flex-shrink-0 text-black mr-6 ">
       <span class="font-bold text-xl tracking-wider mx-2">Announcments</span>
     </div>

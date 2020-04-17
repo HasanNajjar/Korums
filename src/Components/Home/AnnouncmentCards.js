@@ -95,9 +95,10 @@ export default class AnnouncmentCards extends PureComponent {
   buildItems() {
     return this.state.items.map(item => {
       return (
+        <div class="container mx-auto">
         <div class="scrollable"> 
-    <div class="Cards bg-gray-100 p-3 pb-3">
-    <div class="bg-gray-200 max-w-sm rounded overflow-hidden shadow-xl mx-5">
+    <div class="Cards bg-gray-200 p-3 pb-3">
+    <div class="bg-gray-100 max-w-sm rounded overflow-hidden shadow-lg mx-5">
     <div class="px-4 py-2 h-40 min-w-full overflow-hidden">
     <div class="font-semibold text-lg mb-2 ">
           {item.Title}
@@ -106,7 +107,7 @@ export default class AnnouncmentCards extends PureComponent {
           {item.Body}
           </span>
           </div>
-          <div class="px-5 py-2 bg-gray-400 flex">
+          <div class="px-5 py-2 bg-purple-300 flex">
           <span class="inline-block  px-1 py-1 text-sm font-semibold  mr-15 "> 24/02/20
           </span>
           <span class="inline-block  px-1 py-1 text-sm font-semibold">
@@ -120,6 +121,7 @@ export default class AnnouncmentCards extends PureComponent {
           </div>
           </div>
           </div>
+          </div>
       )
     })
   }
@@ -128,8 +130,8 @@ export default class AnnouncmentCards extends PureComponent {
     const { canScrollLeft, canScrollRight } = this.state
     return (
       <div>
-      <div  class="bg-gray-400 text-center">
-        <button class="bg-green-400  hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full"
+      <div  class="bg-gray-200 text-center">
+        <button class="bg-indigo-700  hover:bg-indigo-900 text-white font-bold py-2 px-4 rounded-full"
           type="button "  
           disabled={!canScrollLeft} 
           onClick={() => {
@@ -147,7 +149,7 @@ export default class AnnouncmentCards extends PureComponent {
           Remove Item
         </button>*/}
 
-        <button class="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full"
+        <button class="bg-indigo-700 hover:bg-indigo-900 text-white font-bold py-2 px-4 rounded-full"
           type="button"
           disabled={!canScrollRight}
           onClick={() => {

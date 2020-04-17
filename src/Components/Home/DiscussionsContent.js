@@ -2,8 +2,11 @@ import React from 'react'
 
 export default function DiscussionsContent() {
     return(
-        <h1>
-        </h1>
+        <div class="bg-gray-300 h-screen">
+        <div>
+        <h1> eqwe</h1>
+        </div>
+        </div>
     )
 }
 

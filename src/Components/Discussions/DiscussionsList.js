@@ -9,18 +9,21 @@ export function DiscussionsList({ discussion }){
     <div class= "flex  flex-col">
       {discussion.map(item => {
         return(
-          <div class="flex flex-col">
-          <div class="pt-1 px-1 pb-1 h-full bg-gray-100  ">
-          <div class="hover:shadow-2xl cursor-pointer shadow-xl ">
-          <div class="flex flex=col overflow-hidden ">
-          <NavLink to={`/discussions/${item._id}`} activeStyle={{backgroundColor: '#63b3ed'}}>
-          <div class=" text-gray-700 bg-gray-200  px-1 pl-1 m-1 overflow-hidden shadow-lg mx-1 font-semibold hover:shadow-2xl">
+          <div class="flex flex-col px-2 ">
+          <div class="pt-1 px-1 pb-1 h-full bg-purple-100 pr-4  ">
+          <div class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105 ...">
+          <div class="hover:shadow-2xl cursor-pointer shadow-md ">
+          <div class="flex flex=col overflow-hidden  ">
+          <NavLink to={`/discussions/${item._id}`} activeStyle={{backgroundColor: 'rgba(99,179,237,0.45)',
+                                                                 opacity: '0.85'}}>
+          <div class=" text-gray-700 bg-gray-100  px-1 pl-1 m-1 overflow-hidden shadow-md mx-1 font-semibold hover:shadow-2xl">
            {item._id} {item.Title}
             <span class="m-6 font-medium">
             <span class="">Posted To: </span>{item.PostedTo}
             </span>
             </div>
            </NavLink>
+          </div>
           </div>
           </div>
           </div>
