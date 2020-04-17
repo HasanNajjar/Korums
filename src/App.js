@@ -12,8 +12,6 @@ import {
   } from "react-router-dom"
 
 function App() {
-
-       
     return (
         <Router>
         <Switch>
@@ -25,9 +23,10 @@ function App() {
              <Announcments />   </Route>
         </Switch>
         <Switch>
-              <Route path="/discussions" exact> 
+              <Route exact path="/discussions"> 
               <Discussions />  </Route>
         </Switch>
+            
         <Switch>
               <Route path="/login" exact> 
               <Login />  </Route>
