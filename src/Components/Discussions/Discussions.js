@@ -84,7 +84,7 @@ function displayItems(id) {
 function DiscussionsContent(props) {
   const {match} = props 
   const errorMessage = "Failed to display items"
-  let {id} = match.params
+  const {id} = match.params
       return (
       <div>
         {/* fetching... {id} */}

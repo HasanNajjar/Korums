@@ -7,3 +7,27 @@
   .item-controls {
     text-align: center;
   }
+
+  .Modal {
+    position: center;
+    top: 40px;
+    left: 60px;
+    right: 60px;
+    bottom: 90%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    padding-top: 6px;
+    padding-bottom: 20%;
+    background-color: papayawhip;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.10) ;
+    }

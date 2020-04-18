@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function DiscussionsContent() {
     return(
-        <div class="bg-gray-300 h-screen">
+        <div class="bg-gray-300">
         <div>
         <h1> eqwe</h1>
         </div>

@@ -4,6 +4,7 @@ import AnnouncmentTitle from './AnnouncmenstTitle'
 import DiscussionsTitle from './DiscussionsTitle'
 import DiscussionsContent from './DiscussionsContent'
 import AnnouncmentCards from './AnnouncmentCards'
+import AnnouncmentsModal from './AnnouncmentsModal'
 
 export default function Home() {
     return(
@@ -14,7 +15,7 @@ export default function Home() {
         <AnnouncmentCards />
          <DiscussionsTitle />
         <DiscussionsContent />
-
+        <AnnouncmentsModal />
         </div>
     )
 
