@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react'
-import debounce from 'lodash.debounce'
 import AnnouncmentsData from '../../Data/AnnouncmentsData'
-
+import debounce from 'lodash.debounce'
 const Data = AnnouncmentsData
 
 
