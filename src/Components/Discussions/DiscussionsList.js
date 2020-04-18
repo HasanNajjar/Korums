@@ -16,8 +16,8 @@ export function DiscussionsList({ discussion }){
           <div class="flex flex=col overflow-hidden  ">
           <NavLink to={`/discussions/${item._id}`} activeStyle={{backgroundColor: 'rgba(99,179,237,0.45)',
                                                                  opacity: '0.85'}}>
-          <div class=" text-gray-700 bg-gray-100  px-1 pl-1 m-1 overflow-hidden shadow-md mx-1 font-semibold hover:shadow-2xl">
-           {item._id} {item.Title}
+          <div class="text-gray-700 bg-gray-100 py-1 px-1 pl-1 m-1 overflow-hidden shadow-md mx-1 font-semibold hover:shadow-2xl">
+           {item._id} {item.Title.slice(0, 70)}
             <span class="m-6 font-medium">
             <span class="">Posted To: </span>{item.PostedTo}
             </span>

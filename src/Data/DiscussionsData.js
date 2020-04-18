@@ -1,59 +1,132 @@
 const DiscussionsData = [
     {
     _id: 1,
-    Title: "Hello how are you all doing my name is Hasan please follow me on my twitter and instagram @qweqeqw",
-    Body: "Aenean consectetur justo elementum, placerat lacus et, pulvinar velit.",
-    Comments: 22,
+    Title: "How To Improve At FOOTBALL In 60 Minutes ",
+    Body: "",
+    Comments: [
+        {
+            Username: "hasan12123",
+            Comment: "wow this is so bad",
+        },
+        {
+            Username: "ali",
+            Comment: "this is fine ",
+        },
+        {
+            Username: "product manager",
+            Comment: "comment3",
+        },
+        {
+            Username: "mohammed",
+            Comment: "comment4 ",
+        },
+        {
+            Username: "samuel",
+            Comment: "comment5",
+        }
+        ],
     PostedTo: "Dota2",
-
     },
+
     {
     _id: 2,
-    Title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper tincidunt pharetra. Nam mollis odio at elit sollicitudin luctus",
-    Body: "volutpat feugiat elit. Pellentesque auctor tincidunt massa, a dignissim dolor pulvinar non. In hac habitasse platea dictumst. Mauris scelerisque enim lectus, vel iaculis augue porta rhoncus.",
-    Comments: 1,
+    Title: "Open The Gates For FOOTBALL By Using These Simple Tip",
+    Body: "",
+    Comments: [
+        {
+            Comment: "this is so useleeless, comment 2",
+            Comment: "this iseless, 3",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is ssel, comment 4",
+            Comment: "this is so useless, comment ",
+        }
+        ],
     PostedTo: "Dota2",
 
     },
     {
     _id: 3,
-    Title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper tincidunt pharetra. Nam mollis odio at elit sollicitudin luctus",
+    Title: "Open The Gates For FOOTBALL By Using These Simple Tip",
     Body: "Maecenas consectetur ante nec massa laoreet fermentum",
-    Comments: 33,
+    Comments: [
+        {
+            Comment: "this is so useless, comment 1",
+            Comment: "this is so useless, comment 2",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 4",
+            Comment: "this is so useless, comment 5",
+        }
+        ],
     PostedTo: "Dota2",
 
     },
     {
     _id: 4,
-    Title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper tincidunt pharetra. Nam mollis odio at elit sollicitudin luctus",
-    Body: " Mauris at leo quis dui varius lobortis at quis loremm",
-    Comments: 31,
+    Title: "Believe In Your FOOTBALL Skills But Never Stop Improving",
+    Body: "  ",
+    Comments: [
+        {
+            Comment: "this is so useless, comment 1",
+            Comment: "this is so useless, comment 2",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 4",
+            Comment: "this is so useless, comment 5",
+        }
+        ],
     PostedTo: "Dota2",
 
     },
     {
     _id: 5,
-    Title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper tincidunt pharetra. Nam mollis odio at elit sollicitudin luctus",
-    Body: "volutpat feugiat elit. Pellentesque auctor tincidunt massa, a dignissim dolor pulvinar non. In hac habitasse platea dictumst. Mauris scelerisque enim lectus, vel iaculis augue porta rhoncus.",
-    Comments: 1,
+    Title: "Who Else Wants To Enjoy FOOTBALL becuase this is so good!!! am i alone orw hat",
+    Body: ".",
+    Comments: [
+        {
+            Comment: "this is so useless, comment 1",
+            Comment: "this is so useless, comment 2",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 4",
+            Comment: "this is so useless, comment 5",
+        }
+        ],
     PostedTo: "Webdev",
 
     },
     {
     _id: 6,
-    Title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper tincidunt pharetra. Nam mollis odio at elit sollicitudin luctus",
+    Title: "5 Simple Steps To An Effective FOOTBALL Strategy",
     Body: "Maecenas consectetur ante nec massa laoreet fermentum",
-    Comments: 33,
+    Comments: [
+        {
+            Comment: "this is so useless, comment 1",
+            Comment: "this is so useless, comment 2",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 3",
+            Comment: "this is so useless, comment 4",
+            Comment: "this is so useless, comment 5",
+        }
+        ],
     PostedTo: "Webdev",
 
     },
     {
     _id: 7,
-    Title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper tincidunt pharetra. Nam mollis odio at elit sollicitudin luctus",
+    Title: "How I Improved My FOOTBALL In One Day",
     Body: " Mauris at leo quis dui varius lobortis at quis loremm",
-    Comments: 31,
+    Comments: [
+    {
+        Comment: "this is so useless, comment 1",
+        Comment: "this is so useless, comment 2",
+        Comment: "this is so useless, comment 3",
+        Comment: "this is so useless, comment 3",
+        Comment: "this is so useless, comment 4",
+        Comment: "this is so useless, comment 5",
+    }
+    ],
     PostedTo: "Webdev",
-
     },
 
 
